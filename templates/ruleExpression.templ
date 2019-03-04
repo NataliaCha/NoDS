@@ -1,0 +1,1 @@
+\n        inputValue = inputValue.replaceAll(\",\", \".\")\n        def value = inputValue as BigDecimal;\n        try {\n             ${expr}\n        } catch (Exception e) {\n            errorMessage = e.message + 'inputValue=' + inputValue\n        }\n        result.value = value as String\n
